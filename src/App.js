@@ -3,13 +3,12 @@ import "./App.css";
 
 import Banner from "./assets/Start";
 import Footer from "./assets/footer";
-import DisplayImageComponent from "./Components/StartGame";
+import Button from "./UI/Button";
 function App() {
   return (
     <div className="myContainer">
-    <Banner />
-      <DisplayImageComponent />
-
+      <Banner />
+      <Button />
       <Footer />
     </div>
   );
