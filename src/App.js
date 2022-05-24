@@ -7,10 +7,10 @@ import DisplayImageComponent from "./Components/StartGame";
 function App() {
   return (
     <div className="myContainer">
-      <Banner></Banner>
-      <DisplayImageComponent></DisplayImageComponent>
+    <Banner />
+      <DisplayImageComponent />
 
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }
